@@ -1,6 +1,10 @@
 import java.util.*;
 public class StudentGradebookDriver {
 	public static void main(String[] args) {
+		
+		//Example 1
+		System.out.println("Gradebook 1");
+		
 		Student s1 = new Student("AL1111", "LM121", 5);
 		Student s2 = new Student("LL1234", "LM121", 5);
 		Student s3 = new Student("CW1212", "MA415", 5);
@@ -23,6 +27,8 @@ public class StudentGradebookDriver {
 		exResults.displayAll();
 		
 		//Example 2
+		System.out.println("Gradebook 2");
+		
 		ArrayList<Student> studentList = new ArrayList<Student>();
 		Student s4 = new Student("QW1231", "CS456", 5);
 		Student s5 = new Student("ER4567", "CS456", 5);
